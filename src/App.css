@@ -48,13 +48,10 @@
 
 .task-list li {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ddd;
-  width: 90%;
-  margin: auto;
 }
 
 .task-list li > div {
@@ -79,11 +76,7 @@
 }
 
 .task-list li span {
-  margin-right: auto;
-  position: relative;
-  top: -4px;
-  width: 70%;
-  white-space: nowrap;
+  margin-left: 10px;
 }
 
 .task-list li img {
